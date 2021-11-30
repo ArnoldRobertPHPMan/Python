@@ -37,7 +37,7 @@ elif mengetik == 0:
 if game_online < 31 and game_online > 0:
   biaya_game_online = (30/60)*5000
 elif game_online > 30:
-  biaya_game_online = (mengetik/60)*5000
+  biaya_game_online = (game_online/60)*5000
 elif game_online == 0:
   biaya_game_online = 0
 
